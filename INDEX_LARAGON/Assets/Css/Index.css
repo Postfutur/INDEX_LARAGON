@@ -1,0 +1,152 @@
+    body {
+        display: table;
+        margin-top: 10px;
+        padding: 10px;
+        width: 100%;
+        font-weight: 100;
+        font-family: 'Karla';
+        background-color: black;
+        color: darkgrey;
+    }
+
+    h2{
+        color: red;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        color: darkgrey;
+        }
+    
+    ul {
+            list-style-type: circle;
+            color: darkgrey;
+        }
+    
+    section {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+        color: darkgrey;
+        }
+
+    .date_time{
+        text-align: left;
+        color: darkslategrey;
+        }
+
+    /* .container {
+        text-align: center;
+        display: table-cell;
+        vertical-align: top;
+        } */
+
+    .content {
+        text-align: center;
+        display: inline-block;
+        color: darkgrey;
+        }
+
+
+    .Help {
+        margin-top: 10px;
+        text-align: center;
+        color: darkgrey;
+        font-weight: bold;
+        }
+    
+    .Help a {
+        text-decoration: none;
+        font-size: 100%;
+        color: darkgrey;
+        font-style: italic;
+        }
+
+    .title {
+        font-size: 60px;
+        color: darkgrey;
+        }
+
+    .SubTitle {
+        list-style-type: none;
+        color: darkgrey;
+        }
+
+    .Info{
+        text-align:left;
+        color: darkgrey;
+        }
+
+    .Liens {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 5px;
+        color: blueviolet;
+        font-weight: bold;
+        }
+
+
+    .Border_Box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border: 1px solid grey;
+        width: 100%;
+        padding: 5px;
+        }
+
+    #Color_Link a{
+        clear:both;
+        text-align:center;
+        color: darkgrey;
+    }
+    
+    #Color_Link .File_Link a{
+        color: yellowgreen; 
+    }
+    
+    #Color_Link .Directory_Link a{
+        color: green;
+    }
+
+    .Title_List{
+        text-align: center;
+        font-weight: bolder;
+        font-size: larger;
+        color: darkgrey;
+    }
+
+    .Border_Box_Simple {
+        border: 1px solid grey;
+        padding: 5px;
+    }
+
+    .Flag{
+        font-weight: bolder;
+        color: white;
+    }
+
+    .Danger_Zone{
+        color: red;
+        display:block;
+    }
+
+    .Border_Box_Danger_Zone{
+        color: red;
+        border: 5px solid red;
+        display: block;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .Important{
+        font-weight: bolder;
+        color: blue;
+    }
